@@ -1,6 +1,6 @@
 # Restaurant Electronic
 
-Aplicatia de tip MVC reprezinta o modalitate de gestionare a comenzilor dintr-un restaurant.
+Aplicatia de tip MVC reprezinta o modalitate de a comanda din meniul unui restaurant.
 
 ## Instalare
 
@@ -14,22 +14,11 @@ git clone https://github.com/MrJ33F/RestaurantElectronic
 ## Utilizator:
 
 ```python
--Poate sa faca o rezervare din timp. (Aceasta fiind trimisa pe email cu un ID unic de autentificare)
--Daca acesta nu face o rezervare din timp un ID generat aleatoriu ii se va aloca si se verifica daca mai sunt mese disponibile.
--Poate plasa o comanda.
--Poate modfica/sterge comanda inainte de a fi trimisa la administratie.
--Poate vizualiza meniul restaurantului/comenzile pe care acesta le-a pus.
--Poate lasa un feedback restaurantului.
+-Poate sa comande din meniul afisat pe site.
+-Poate selecta meniul special al saptamani.
+-Poate modifica/sterge din cosul de cumparaturi.
 ```
 
-## Administratia (Bucataria)
-```python
--Poate adauga intrati noi in meniu.
--Poate actualiza/sterge intrari in meniu.
--Poate vizualiza clienti care au plasat comenzi, meniul si feedback-ul trimis de catre acestia.
--Poate aplica anumite reduceri asupra anumitor intrari in meniu.
--Poate modifica/sterge rezervarile introduse in baza de date.
-```
 
 ## Echipa
 
@@ -37,12 +26,21 @@ Cu ce am contribuit fiecare la acest proiect.
 
 ## Groza Cosmin-Gabriel
 ```python
+-Design pagina.
+-Implementat restul de controlare.
+-Implementat iterfate si modele de tip repository ca sa usureze implementarea anumitor modele
+-Ocupat de partea de migratie a datelor.
+-Implementat sistemul de login.
 ```
 ## Balan Sebastian-Mihai
 ```python
--Implementarea a cel putin 5 clase.
--Implementat 4 modele.
--Implementat 4 controlere distincte.
--Implementarea stocarii in baze de date 
+-Implementat clase distincte.
+-Implementat modelele principale ale aplicatiei.
+-Implementat controlare de baza.
+-Implementat ViewModels
+-Implementat componente site.
 ```
 
+## Bug-uri
+
+In momentul de fata aplicatia nu vrea sa ruleze din motivul lipsei bazei de date. Incerc de cateva zile dar nu am reusit sa rezolv problema.
