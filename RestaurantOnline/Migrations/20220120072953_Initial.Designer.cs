@@ -10,7 +10,7 @@ using RestaurantOnline.Models;
 namespace RestaurantOnline.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220120065209_Initial")]
+    [Migration("20220120072953_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
