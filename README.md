@@ -43,4 +43,4 @@ Cu ce am contribuit fiecare la acest proiect.
 
 ## Bug-uri
 
-In momentul de fata aplicatia nu vrea sa ruleze din motivul lipsei bazei de date. Incerc de cateva zile dar nu am reusit sa rezolv problema.
+Fixed all bugs :)
